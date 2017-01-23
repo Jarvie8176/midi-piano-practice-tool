@@ -1,0 +1,33 @@
+{
+  "name": "midi-piano-practice-tool",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarvie8176/midi-piano-practice-tool.git"
+  },
+  "keywords": [
+    "midi",
+    "piano"
+  ],
+  "author": "Jiawei.K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarvie8176/midi-piano-practice-tool/issues"
+  },
+  "homepage": "https://github.com/jarvie8176/midi-piano-practice-tool#readme",
+  "dependencies": {
+    "config": "^1.24.0",
+    "easymidi": "0.0.2",
+    "electron": "^1.4.15",
+    "express": "^4.14.0",
+    "midi": "^0.9.5",
+    "moment-timezone": "^0.5.11",
+    "winston": "^2.3.1"
+  }
+}
